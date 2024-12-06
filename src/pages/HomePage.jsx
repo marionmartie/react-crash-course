@@ -9,7 +9,7 @@ const Homepage = () => {
     <>
         <Hero />
         <HomeCards />
-        <JobListings />
+        <JobListings limit={3} />
         <ViewAllJobs />
     </>
   )
