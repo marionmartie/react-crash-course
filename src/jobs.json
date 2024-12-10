@@ -83,6 +83,34 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "f2d5",
+      "title": "Vitae explicabo Con",
+      "type": "Part-Time",
+      "description": "Architecto et ex sed",
+      "location": "Sunt earum magna rei",
+      "salary": "$60K - 70K",
+      "company": {
+        "name": "Black and Whitehead Trading",
+        "description": "Consequatur veniam",
+        "contactEmail": "bomuke@mailinator.com",
+        "contactPhone": "+1 (139) 283-2402"
+      }
+    },
+    {
+      "id": "09a9",
+      "title": "Perferendis est amet",
+      "type": "Remote",
+      "description": "Est veritatis et ut ",
+      "location": "Eius cum et expedita",
+      "salary": "$90K - 100K",
+      "company": {
+        "name": "Justice and Middleton LLC",
+        "description": "Rem nisi est officia",
+        "contactEmail": "pesam@mailinator.com",
+        "contactPhone": "+1 (295) 733-2594"
+      }
     }
   ]
 }
