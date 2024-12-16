@@ -1,11 +1,20 @@
 import React from 'react'
-import { useParams, useLoaderData } from 'react-router-dom'
+import { useParams, useLoaderData, useNavigate } from 'react-router-dom'
 import { FaMapMarker } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
-const JobPage = () => {
+const JobPage = ({deleteJob}) => {
     const {id} = useParams()
     const job = useLoaderData()
+    const nav = useNavigate()
+
+    const onDeleteClick = (id) => {
+        const confirm = window.confirm('Delete the record?')
+        if(!confirm) return
+
+        deleteJob(id)
+        nav('/jobs')
+    }
 
     return (
         <section className="bg-indigo-50">
@@ -76,6 +85,7 @@ const JobPage = () => {
                             >
                             <button
                                 className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
+                                onClick={() => onDeleteClick(job.id)}
                             >
                                 Delete Job
                             </button>

@@ -1,5 +1,5 @@
 {
-  "jobs" : [
+  "jobs": [
     {
       "id": "1",
       "title": "Senior React Developer",
@@ -85,31 +85,16 @@
       }
     },
     {
-      "id": "f2d5",
-      "title": "Vitae explicabo Con",
-      "type": "Part-Time",
-      "description": "Architecto et ex sed",
-      "location": "Sunt earum magna rei",
-      "salary": "$60K - 70K",
+      "id": "3f7b",
+      "title": "Atque reprehenderit",
+      "type": "Internship",
+      "description": "Repellendus Ipsa u",
+      "location": "Consectetur perspic",
       "company": {
-        "name": "Black and Whitehead Trading",
-        "description": "Consequatur veniam",
-        "contactEmail": "bomuke@mailinator.com",
-        "contactPhone": "+1 (139) 283-2402"
-      }
-    },
-    {
-      "id": "09a9",
-      "title": "Perferendis est amet",
-      "type": "Remote",
-      "description": "Est veritatis et ut ",
-      "location": "Eius cum et expedita",
-      "salary": "$90K - 100K",
-      "company": {
-        "name": "Justice and Middleton LLC",
-        "description": "Rem nisi est officia",
-        "contactEmail": "pesam@mailinator.com",
-        "contactPhone": "+1 (295) 733-2594"
+        "name": "Berger and Curtis LLC",
+        "description": "Ex iusto laboriosamasdsaasdsadd",
+        "contactEmail": "domumyx@mailinator.com",
+        "contactPhone": "+1 (978) 763-7257"
       }
     }
   ]
